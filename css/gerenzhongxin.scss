@@ -1,0 +1,359 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+#view-2{
+  width: 7.5rem;
+  height: 13.34rem;
+  background:url("../img/beijing.png");
+  position: absolute;
+  .header{
+    margin-top: 0.34rem;
+    width: 7.5rem;
+    height: 0.5rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #ffffff;
+  }
+  .content-yi{
+    width: 7.5rem;
+    height: 0.32rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.32rem;
+    color: #ffffff;
+  }
+  .content-name{
+    position: absolute;
+    width: 5.2rem;
+    height: 1.36rem;
+    .name-c{
+      width: 0.8rem;
+      height: 0.3rem;
+      margin-top: 0.66rem;
+      font-size: 0.25rem;
+      margin-left: 4rem;
+      color: #ffffff;
+    }
+    .name-e{
+      width: 1.4rem;
+      height: 0.3rem;
+      font-size: 0.25rem;
+      margin-left: 3.5rem;
+      color: #ffffff;
+    }
+  }
+  .content-rigth{
+    width: 1.64rem;
+    height: 1.64rem;
+    position: absolute;
+    margin-left: 5.2rem;
+    margin-top: 0.5rem;
+  .content-portrait{
+    position: absolute;
+    width: 1.64rem;
+    height: 1.64rem;
+    border-radius: 50%;
+    //margin-left: 5.2rem;
+    //margin-top: 0.5rem;
+    overflow: hidden;
+    z-index: 99;
+    img{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+   }
+    .content-editor{
+      width: 0.42rem;
+      height: 0.42rem;
+      background: #f9df30;
+      border-radius: 50%;
+      position: absolute;
+      bottom:0;
+      right: 0;
+      z-index: 999;
+    }
+  }
+  .content-er{
+    position: absolute;
+    width: 7.2rem;
+    height: 10.62rem;
+    background:url("../img/dakuai.png");
+    margin-top: 1.36rem;
+    margin-left: 0.15rem;
+    z-index:9;
+    .content-band{
+      width: 3rem;
+      height: 1.04rem;
+      margin-top: 1.2rem;
+      margin-left: 3.7rem;
+      .content-BandName{
+        width: 0.94rem;
+        height: 0.4rem;
+        font-size: 0.3rem;
+        font-weight: bold;
+        color: #5dc5fd;
+        margin-left: 2.06rem;
+        line-height: 0.4rem;
+      }
+      .content-BandName-e{
+        width: 3rem;
+        height: 0.3rem;
+        font-size: 0.29rem;
+        font-weight: bold;
+        color: #5dc5fd;
+      }
+      .content-phone{
+        width: 1.42rem;
+        height: 0.34rem;
+        font-size: 0.3rem;
+        font-weight: bold;
+        margin-left: 1.58rem;
+      }
+    }
+    .nav{
+      //position: absolute;
+      width: 6.82rem;
+      height: 1.26rem;
+      //background: aqua;
+      margin-top: 0.36rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 0rem 0.22rem;
+      .content-focus{
+        width: 2.2rem;
+        height: 1.26rem;
+        border-radius: 0.1rem;
+        background: url("../img/guanzhu.png") bottom;
+        background-size: cover;
+        box-shadow: 0 0 0.02rem 0.02rem rgba(93,197,253,0.1);
+        .digital{
+          width: 100%;
+          height: 0.74rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span{
+            font-size: 0.4rem;
+            font-weight: bold;
+            color: #ff2888;
+          }
+          .focus{
+            font-size: 0.3rem;
+            color: #5dc5fd;
+          }
+        }
+        .photograph{
+          width: 100%;
+          height: 0.3rem;
+          color: #565eff;
+          text-align: center;
+          font-size: 0.3rem;
+        }
+      }
+      .content-fans{
+        width: 2.2rem;
+        height: 1.26rem;
+        border-radius: 0.1rem;
+        background: url("../img/fensi.png") bottom;
+        background-size: cover;
+        box-shadow: 0 0 0.02rem 0.02rem rgba(93,197,253,0.1);
+        .digital{
+          width: 100%;
+          height: 0.74rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span{
+            font-size: 0.4rem;
+            font-weight: bold;
+            color: #ff2888;
+          }
+          .fans{
+            font-size: 0.3rem;
+            color: #5dc5fd;
+          }
+        }
+        .following{
+          width: 100%;
+          height: 0.3rem;
+          color: #565eff;
+          text-align: center;
+          font-size: 0.3rem;
+        }
+      }
+      .content-order{
+        width: 2.2rem;
+        height: 1.26rem;
+        border-radius: 0.1rem;
+        background: url("../img/dingdan.png") bottom;
+        background-size: cover;
+        box-shadow: 0 0 0.02rem 0.02rem rgba(93,197,253,0.1);
+        .digital{
+          width: 100%;
+          height: 0.74rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span{
+            font-size: 0.4rem;
+            font-weight: bold;
+            color: #ff2888;
+          }
+          .order{
+            font-size: 0.3rem;
+            color: #5dc5fd;
+          }
+        }
+        .followera{
+          width: 100%;
+          height: 0.3rem;
+          color: #565eff;
+          text-align: center;
+          font-size: 0.3rem;
+        }
+      }
+    }
+  .content-works{
+    width: 6.82rem;
+    height: 0.96rem;
+    padding: 0rem 0.22rem;
+
+    .works{
+      width: 1.3rem;
+      height: 0.62rem;
+      font-size: 0.28rem;
+      display: flex;
+      align-items: flex-end;
+      color: #f81f86;
+      font-weight: bold;
+    }
+    .describe{
+      width: 2.2rem;
+      height: 0.34rem;
+      font-size: 0.26rem;
+      color: #6169ff;
+    }
+  }
+    .playlist-yi{
+      width: 6.82rem;
+      height: 1.18rem;
+      padding: 0rem 0.22rem;
+      .content-playlist-yi{
+        width: 6.82rem;
+        height: 1.12rem;
+        border-bottom: dashed 0.06rem rgba(0,0,0,0.1);
+        .singer{
+          width: 3.65rem;
+          height: 0.62rem;
+          font-size: 0.26rem;
+          display: flex;
+          align-items: flex-end;
+          font-weight: bold;
+          color: #99a0ab;
+        }
+        .time{
+          width: 1rem;
+          height: 0.56rem;
+          font-size: 0.24rem;
+          font-weight: bold;
+          color: #c6c6c6;
+          line-height: 0.56rem;
+        }
+      }
+      .content-playlist-er{
+        width: 6.82rem;
+        height: 1.12rem;
+        border-bottom: dashed 0.06rem rgba(0,0,0,0.1);
+        .singer{
+          width: 3.65rem;
+          height: 0.62rem;
+          font-size: 0.26rem;
+          display: flex;
+          align-items: flex-end;
+          font-weight: bold;
+          color: #99a0ab;
+        }
+        .time{
+          width: 1rem;
+          height: 0.56rem;
+          font-size: 0.24rem;
+          font-weight: bold;
+          color: #c6c6c6;
+          line-height: 0.56rem;
+        }
+      }
+      .content-playlist-san{
+        width: 6.82rem;
+        height: 1.12rem;
+        border-bottom: dashed 0.06rem rgba(0,0,0,0.1);
+        .singer{
+          width: 3.65rem;
+          height: 0.62rem;
+          font-size: 0.26rem;
+          display: flex;
+          align-items: flex-end;
+          font-weight: bold;
+          color: #99a0ab;
+        }
+        .time{
+          width: 1rem;
+          height: 0.56rem;
+          font-size: 0.24rem;
+          font-weight: bold;
+          color: #c6c6c6;
+          line-height: 0.56rem;
+        }
+      }
+      .content-playlist-si{
+        width: 6.82rem;
+        height: 1.12rem;
+        border-bottom: dashed 0.06rem rgba(0,0,0,0.1);
+        .singer{
+          width: 3.65rem;
+          height: 0.62rem;
+          font-size: 0.26rem;
+          display: flex;
+          align-items: flex-end;
+          font-weight: bold;
+          color: #99a0ab;
+        }
+        .time{
+          width: 1rem;
+          height: 0.56rem;
+          font-size: 0.24rem;
+          font-weight: bold;
+          color: #c6c6c6;
+          line-height: 0.56rem;
+        }
+      }
+      .content-playlist-wu{
+        width: 6.82rem;
+        height: 1.12rem;
+        .singer{
+          width: 3.65rem;
+          height: 0.62rem;
+          font-size: 0.26rem;
+          display: flex;
+          align-items: flex-end;
+          font-weight: bold;
+          color: #99a0ab;
+        }
+        .time{
+          width: 1rem;
+          height: 0.56rem;
+          font-size: 0.24rem;
+          font-weight: bold;
+          color: #c6c6c6;
+          line-height: 0.56rem;
+        }
+      }
+    }
+  }
+
+}
