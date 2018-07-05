@@ -1,0 +1,133 @@
+@import url(base.css);
+/* header开始 */
+header{
+	width: 7.5rem;
+	height: 1.2rem;
+	background-image:-webkit-linear-gradient(left,#fc3791,#fb37b3);
+	padding: 0 0.25rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.back{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.back i.icon-fanhui{
+	display: block;
+	font-size: 0.32rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.head-title{
+	font-size: 0.36rem;
+	color: #fff;
+}
+.total{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.total-number{
+	font-size: 0.3rem;
+}
+/* header结束 */
+.head-bottom{
+	width: 7.5rem;
+	height: 1.03rem;
+}
+/* main开始 */
+.list{
+	width: 7.5rem;
+	height: 10.99rem;
+	background: #f7f7f7;
+}
+.list li{
+	display: block;
+	width: 7.5rem;
+	height: 1.57rem;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.box{
+	width: 6.9rem;
+	height: 1.57rem;
+	border-bottom: 0.02rem dashed #ccc;
+    display: flex;
+}
+.image{
+	width: 1.2rem;
+	height: 100%;
+	position: relative;
+}
+.img-background{
+	width: 1.04rem;
+	height:1.04rem;
+	background: #fe3191;
+	border-radius: 0.2rem;
+	transform: rotate(30deg);
+	position:absolute;
+	left: 0.14rem;
+	top: 0.27rem; 
+}
+.img-picture img{
+	width: 1.12rem;
+	height:1.12rem;
+	background: #fe3191;
+	border-radius: 0.2rem;
+	box-sizing: border-box;
+	border: 0.04rem solid #fff;
+	position:absolute;
+	left: 0;
+	top: 0.25rem;
+	overflow: hidden;
+}
+.text{
+	width: 4.3rem;
+	height: 100%;
+	padding: 0 0.4rem;
+	box-sizing: border-box;
+}
+.text-tit{
+   width: 100%;
+   height: 0.38rem;
+   font-size: 0.2rem;
+   color: #333;
+   line-height: 0.38rem;
+}
+.text a{
+	display: block;
+	width: 100%;
+	height: 0.38rem;
+	font-size: 0.16rem;
+	color: #ccc;
+	line-height: 0.38rem;
+}
+.btn{
+	width: 0.9rem;
+	height: 100%;
+	padding:0 0 0 0.3rem;
+    display: flex;
+    justify-content: space-between
+}
+.btn a{
+	display: block;
+	width: 0.3rem;
+	padding: 0 0.1rem;
+	height: 100%;
+}
+.btn a i.icon-cuo{
+    font-size: 0.3rem;
+    color: #fa3c72;
+    text-align: center;
+    line-height: 0.77rem;
+}
+.btn a i.icon-xiangshangyuanjiantoushangjiantouxiangshangxianxing{
+    font-size: 0.32rem;
+    color: #00b7ee;
+    text-align: center;
+    line-height: 0.77rem;
+}
+/* main结束 */
