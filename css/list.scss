@@ -1,0 +1,244 @@
+@import url(base.css);
+@mixin flex{
+  display: flex;
+}
+body{
+  background: url("../img/beijinglist.png") no-repeat 0 0 /cover;
+}
+#view-7{
+  width: 100%;
+  height: auto;
+  /*头部*/
+  header{
+      width: 100%;
+      height: 0.81rem;
+      font-size: .46rem;
+      color: #ffffff;
+      line-height: 0.81rem;
+      margin-top: 0.34rem;
+    i{
+      padding-left: 0.24rem;
+      font-size: 0.44rem;
+    }
+    span{
+      padding-left: 2.58rem;
+      font-size: 0.36rem;
+    }
+  }
+  /*导航*/
+  nav{
+    width: 100%;
+    height: 0.5rem;
+    margin-top: 0.14rem;
+    .navtop{
+      width: 100%;
+      height: 100%;
+      @include flex;
+      justify-content: space-around;
+      align-items: center;
+      li{
+        font-size: 0.24rem;
+        line-height: 0.5rem;
+        color: #ffffff;
+        a{
+          font-size: 0.24rem;
+          line-height: 0.5rem;
+          color: #ffffff;
+          i{
+            font-size: 0.28rem;
+          }
+        }
+      }
+    }
+  }
+  /*栏目*/
+  .column{
+    width: 100%;
+    height: 0.78rem;
+    .colum-nav{
+      width: 7.02rem;
+      height: 0.64rem;
+      background: #ffffff;
+      border-radius: 0.05rem;
+      margin: 0.08rem auto;
+      @include flex;
+      align-items: center;
+      li{
+          width: 2.58rem;
+          height: 0.54rem;
+          line-height: 0.78rem;
+          font-size: 0.26rem;
+           @include flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        a{
+          line-height: 0.78rem;
+          font-size: 0.26rem;
+          text-align: center;
+          color: #6d6969;
+        }
+        &:nth-last-child(2) a{
+          color: #ffffff;
+        }
+        &:nth-last-child(2){
+          background: #fe318e;
+        }
+      }
+    }
+  }
+  /*轮播图*/
+  .slideshow{
+    width: 100%;
+    height: 3.2rem;
+    margin-top: 0.2rem;
+    position: relative;
+    li{
+      width: 5.02rem;
+      height: 100%;
+      margin: 0 auto;
+      border: 2px solid #ffffff;
+      border-radius: 0.1rem;
+      overflow: hidden;
+      box-shadow: 0 0 0.05rem 0.05rem rgba(255,211,230,.5);
+      img{
+        display: block;
+        width: 100%;
+      }
+    }
+    .input{
+      width: 4.6rem;
+      height: 0.66rem;
+      background: #ffffff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0.22rem;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      border-radius: 0.3rem;
+      input{
+        display: block;
+        width: 3.6rem;
+        height: 100%;
+        border: none;
+        padding-left: 0.34rem;
+        box-sizing: border-box;
+        outline: none;
+        border-radius: 0.3rem;
+        float: left;
+      }
+      .input-add{
+        width: 0.96rem;
+        height: 100%;
+        float: right;
+        background: #fe3191;
+        margin-right: 0.03rem;
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+        a{
+          display: block;
+          width: 100%;
+          height: 100%;
+          line-height: 0.66rem;
+          text-align: center;
+          @include flex;
+          justify-content: center;
+          font-size: 0.66rem;
+          i{
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  /*内容*/
+  .content{
+    width: 100%;
+    height: auto;
+    margin-top: 0.18rem;
+    padding: 0.2rem 0 0.1rem 0.25rem;
+    box-sizing: border-box;
+    li{
+      width: 100%;
+      height: 1.58rem;
+      @include flex;
+      align-items: center;
+      border-bottom: 1px dashed #cccccc;
+      .conten{
+        width: 1.02rem;
+        height: 1.02rem;
+        position: relative;
+        .content-left{
+          width: 1.02rem;
+          height: 1.02rem;
+          background: #fe3191;
+          border-radius: 0.2rem;
+          transform:rotate(45deg);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .cotent-img{
+          width: 1.1rem;
+          height: 1.1rem;
+          border: 0.01rem solid #ffffff;
+          border-radius: 0.2rem;
+          position: absolute;
+          left: -0.08rem;
+          top: 0;
+          z-index: 1;
+          overflow: hidden;
+          img{
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+
+    }
+    .content-right{
+      width: 3.28rem;
+      height: 100%;
+      line-height: 1.58rem;
+      margin-left: 0.5rem;
+      padding-top: 0.22rem;
+      box-sizing: border-box;
+      .cont-top{
+        width: 100%;
+        height: 0.54rem;
+        font-size: 0.28rem;
+        color: #6e7580;
+        line-height: 0.54rem;
+        .song-name{
+          font-size: 0.28rem;
+          color: #6e7580;
+          line-height: 0.54rem;
+        }
+        .name{
+          font-size: 0.28rem;
+          color: #6e7580;
+          line-height: 0.54rem;
+        }
+      }
+      .cont-bottom{
+        width: 100%;
+        height: 0.54rem;
+        font-size: 0.16rem;
+        color: #c6c6c6;
+        line-height: 0.54rem;
+        .time{
+          font-size: 0.16rem;
+          color: #c6c6c6;
+          line-height: 0.54rem;
+        }
+        .second{
+          font-size: 0.16rem;
+          color: #c6c6c6;
+          line-height: 0.54rem;
+        }
+      }
+    }
+  }
+}

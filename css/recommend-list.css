@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url(base.css);
+body {
+  background: url("../img/bjlist.png") no-repeat 0 0/cover; }
+
+#view-9 {
+  width: 100%;
+  height: auto;
+  /*内容*/ }
+  #view-9 header {
+    width: 100%;
+    height: 0.72rem;
+    line-height: 0.72rem;
+    font-size: 0.34rem;
+    margin-top: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #view-9 header a {
+      font-size: 0.34rem; }
+      #view-9 header a i {
+        margin-left: 0.21rem;
+        font-size: 0.34rem;
+        color: #ffffff; }
+    #view-9 header .headernav {
+      font-size: 0.34rem;
+      color: #ffffff; }
+    #view-9 header .header-right {
+      font-size: 0.2rem;
+      color: #ffffff;
+      margin-right: 0.26rem; }
+  #view-9 .content {
+    width: 100%;
+    height: auto;
+    margin-top: 1.12rem;
+    padding: 0.2rem 0 0.1rem 0.25rem;
+    box-sizing: border-box; }
+    #view-9 .content li {
+      width: 100%;
+      height: 1.58rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px dashed #cccccc; }
+      #view-9 .content li .conten {
+        width: 1.02rem;
+        height: 1.02rem;
+        position: relative; }
+        #view-9 .content li .conten .content-left {
+          width: 1.02rem;
+          height: 1.02rem;
+          background: #fe3191;
+          border-radius: 0.2rem;
+          transform: rotate(45deg);
+          position: absolute;
+          top: 0.02rem;
+          left: 0; }
+        #view-9 .content li .conten .cotent-img {
+          width: 1.12rem;
+          height: 1.12rem;
+          border: 0.01rem solid #ffffff;
+          border-radius: 0.2rem;
+          position: absolute;
+          left: -0.12rem;
+          top: 0;
+          z-index: 1;
+          overflow: hidden; }
+          #view-9 .content li .conten .cotent-img img {
+            display: block;
+            width: 100%; }
+      #view-9 .content li .content-right {
+        width: 4.28rem;
+        height: 100%;
+        line-height: 1.58rem;
+        padding-top: 0.26rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        #view-9 .content li .content-right .cont-top {
+          width: 100%;
+          height: 0.54rem;
+          font-size: 0.28rem;
+          color: #6e7580;
+          line-height: 0.54rem; }
+          #view-9 .content li .content-right .cont-top .song-name {
+            font-size: 0.28rem;
+            color: #6e7580;
+            line-height: 0.54rem; }
+          #view-9 .content li .content-right .cont-top .name {
+            font-size: 0.28rem;
+            color: #6e7580;
+            line-height: 0.54rem; }
+        #view-9 .content li .content-right .cont-bottom {
+          width: 100%;
+          height: 0.54rem;
+          font-size: 0.16rem;
+          color: #c6c6c6;
+          line-height: 0.54rem; }
+          #view-9 .content li .content-right .cont-bottom .time {
+            font-size: 0.16rem;
+            color: #c6c6c6;
+            line-height: 0.54rem; }
+          #view-9 .content li .content-right .cont-bottom .second {
+            font-size: 0.16rem;
+            color: #c6c6c6;
+            line-height: 0.54rem; }
+      #view-9 .content li a {
+        margin-right: 0.26rem; }
+        #view-9 .content li a i {
+          font-size: 0.5rem;
+          color: #fa3c72; }
