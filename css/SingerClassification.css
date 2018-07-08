@@ -1,0 +1,246 @@
+  @charset "UTF-8";
+  @import url(base.css);
+  *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #view-4{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: url("../img/bg.png") no-repeat center/cover;
+    /*头部*/
+    /*导航*/
+    /*main*/
+    /*固定定位*/ }
+    #view-4 header {
+      width: 100%;
+      height: .88rem;
+      padding: 0 0.24rem;
+      box-sizing: border-box; }
+    #view-4 header .header-wrapper {
+        height: 100%;
+        width: 100%;
+        padding: 0 2.6rem 0 0;
+        box-sizing: border-box; }
+    #view-4 header .header-wrapper a {
+          display: block;
+          width: 0.32rem;
+          height: 0.32rem;
+          line-height: 0.88rem; }
+          #view-4 header .header-wrapper a i {
+            float: left;
+            width: 0.32rem;
+            height: 0.32rem;
+            color: #fff;
+            font-size: 0.32rem;
+            font-weight: bold;
+            line-height:0.88rem; }
+        #view-4 header .header-wrapper h2 {
+          float: right;
+          height: 100%;
+          font-size: .34rem;
+          color: #fff;
+          line-height: .88rem; 
+          margin-right: 0.6rem;
+        }
+    #view-4 nav {
+      width: 100%;
+      height: 1.14rem; }
+      #view-4 nav .nav-wrapper {
+        width: 100%;
+        height: 1.14rem;
+        padding: 0 0.24rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;}
+        #view-4 nav .nav-wrapper .nav-context {
+          width: 100%;
+          height: .56rem;
+          padding: 0 0.24rem 0.16rem;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          justify-content: space-around; 
+        }
+          #view-4 nav .nav-wrapper .nav-context li {
+            height: .4rem; }
+            #view-4 nav .nav-wrapper .nav-context li a {
+              display: block;
+              height: .4rem;
+              font-size: .22rem;
+              color: #fff; 
+            }
+        #view-4 nav .nav-wrapper .search {
+          width: 100%;
+          height: .68rem;
+          padding: 0 0.24rem;
+          box-sizing: border-box;
+          position: relative;
+          background: #fafafa;
+          border-radius: 0.2rem;
+
+          }
+          #view-4 nav .nav-wrapper .search i {
+            width: .24rem;
+            height: .24rem;
+            font-size: .24rem;
+            color: #ccc;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            left: 0.32rem; 
+                    
+          }
+          #view-4 nav .nav-wrapper .search input {
+            float: right;
+            width: 90%;
+            height: 100%;
+            border: none;
+            outline: none;
+            background: #fafafa;
+            padding: 0.08rem;
+            box-sizing: border-box;
+    
+           }
+ 
+           .figuer{
+             width:6.98rem;
+             height: 3.97rem;
+              margin: 0 auto;
+              margin-top: 0.6rem;
+
+              position: relative;
+            
+            }  
+            .figuer-1{
+              width: 4.75rem;
+              height: 1.4rem;
+           position: absolute;
+            background: rgba(0,0,0,0.5);
+           top: 1.2rem;
+           left: 1.05rem;
+           font-size: 0.3rem;
+           color: #fff;
+           line-height: 1.4rem;
+           text-align: center;
+            }
+
+           .singer ul{
+           	width: 6.98rem;
+           	height: 2.13rem;
+           	margin:0.05rem auto;   
+           	display: flex;
+           	justify-content: space-between;     
+           }
+           .singer ul li:first-child{
+           	width: 2.85rem;
+           	height: 100%;
+              margin-right: 0.05rem;
+           	float: left;
+           	position: relative;
+
+           }
+           .mask-1{
+           	width: 100%;
+           	height: 100%;
+           	position: absolute;
+           	top: 0;
+           	left: 0;
+           	background: rgba(0,0,0,0.5);
+           	font-size: 0.24rem;
+           	line-height: 2.13rem;
+           	text-align: center;
+           	color: #fff;
+           }
+          
+           .singer ul li:nth-child(2){
+           	width: 2.05rem;
+           	height: 100%;
+              margin-right: 0.05rem;
+           	float: left;
+           	position: relative;
+           }
+            .mask-2{
+           	width: 100%;
+           	height: 100%;
+           	position: absolute;
+           	top: 0;
+           	left: 0;
+           	background: rgba(0,0,0,0.5);
+           	font-size: 0.24rem;
+           	line-height: 2.13rem;
+           	text-align: center;
+           	color: #fff;
+           }
+           .singer ul li:last-child{
+           	width: 2.04rem;
+           	height: 100%;
+           	position: relative;
+           	float: left;
+           }
+             .mask-3{
+           	width: 100%;
+           	height: 100%;
+           	position: absolute;
+           	top: 0;
+           	left: 0;
+           	font-size: 0.24rem;
+           	line-height: 2.13rem;
+           	text-align: center;
+           	color: #fff;
+           }
+           .inland ul{
+           	width: 6.98rem;
+           	height: 3.29rem;
+           
+           	margin: 0 auto;
+           	display: flex;
+           	justify-content: space-between; 
+           }
+          .inland ul li:first-child{
+           	width: 2.85rem;
+           	height: 100%;
+              margin-right: 0.05rem;
+           	float: left;
+           	position: relative;
+
+           }
+            .mask-4{
+           	width: 1.68rem;
+           	height: 1.01rem;
+           	position: absolute;
+           	top: 1.05rem;
+            left: 0.58rem;
+           	background: rgba(0,0,0,0.5);
+           }
+            .mask-4>img{
+             	width: 0.77rem;
+             	height: 0.6rem;
+             	margin: 0.2rem auto;
+             }
+           .inland ul li:last-child{
+           	width: 4.1rem;
+           	height: 100%;
+              float: left;
+           	position: relative;
+
+           }
+            .mask-5{
+           	width: 1.76rem;
+           	height: 1.01rem;
+           	position: absolute;
+           	top: 1.05rem;
+            left:1.16rem;
+           	background: rgba(0,0,0,0.5);
+           }
+             .mask-5>img{
+             	width: 1.09rem;
+             	height: 0.6rem;
+             	margin: 0.2rem auto;
+             }
