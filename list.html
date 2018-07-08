@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>排行榜</title>
+    <script src="js/swiper-4.3.3.min.js"></script>
     <script src="js/rem.js"></script>
     <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_732232_ngj8ggcwz2.css">
@@ -14,7 +15,9 @@
     <div id="view-7">
         <!--头部开始-->
         <header>
-            <i class="iconfont icon-fanhui"></i>
+            <a href="SingerClassification.html">
+                <i class="iconfont icon-fanhui"></i>
+            </a>
             <span>排行榜</span>
         </header>
         <!--导航-->
@@ -125,3 +128,17 @@
     </div>
 </body>
 </html>
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        effect : 'coverflow',
+        slidesPerView: 3,
+        centeredSlides: true,
+        coverflowEffect: {
+            rotate: 30,
+            stretch: 10,
+            depth: 60,
+            modifier: 2,
+            slideShadows : true
+        },
+    })
+</script>
