@@ -1,0 +1,302 @@
+@import url(base.css);
+/*sass变量开始*/
+@mixin wrapper{
+  width:100%;
+  height: 100%;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+}
+$borderRadius:0.1rem;
+/*sass变量结束*/
+/*整体背景开始*/
+html{
+  width:100%;
+  height: 100%;
+}
+body{
+  width:100%;
+  height: 100%;
+  background: url("../img/find-background.png") no-repeat 0 0/cover;
+}
+#view-19{
+  width:100%;
+  height: 100%;
+}
+/*整体背景开始*/
+/*头部导航栏开始*/
+header{
+  width:100%;
+  height: 0.88rem;
+}
+.header-wrapper{
+  @include wrapper;
+  display: flex;
+  align-items: center;
+}
+.back{
+  width: 0.6rem;
+  height: 0.38rem;
+  margin-right:0.39rem;
+}
+.back>a{
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i.icon-fanhui{
+  color:#fff;
+  font-size: 0.38rem;
+}
+.search{
+  width: 6rem;
+  height: 0.72rem;
+  border:0.02rem solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  border-radius: $borderRadius;
+  padding:0 0.24rem;
+  box-sizing: border-box;
+}
+.search input{
+  width: 100%;
+  height: 100%;
+  font-size: 0.2rem;
+  color:#fff;
+  line-height: 0.68rem;
+  border:none;
+  padding:0;
+  outline: none;
+  background: none;
+}
+/*头部导航栏结束*/
+/*内容开始*/
+.content{
+  width: 100%;
+  height:2.21rem;
+  position:absolute;
+  bottom:0.53rem;
+  left: 0;
+}
+.content-wrapper{
+  @include wrapper;
+  position: relative;
+}
+.listBox1{
+  width: 6.44rem;
+  height: 1.36rem;
+  background: rgba(255,255,255,0.4);
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  margin:0 auto;
+  border-radius: $borderRadius;
+}
+.listBox2{
+  width: 6.77rem;
+  height: 1.36rem;
+  background: rgba(255,255,255,0.4);
+  position:absolute;
+  top:0.11rem;
+  left:0;
+  right:0;
+  margin:0 auto;
+  border-radius: $borderRadius;
+}
+.listBox3{
+  width: 7.02rem;
+  height: 1.96rem;
+  background: rgba(255,255,255,1);
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:0 auto;
+  border-radius: 0.03rem;
+  display: flex;
+}
+.listBox3-L{
+  width: 2.03rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.listBox3-L img{
+  width: 1.59rem;
+  height:1.59rem;
+  border-radius: 50%;
+}
+.listBox3-R{
+  width: 4.99rem;
+  height: 100%;
+  padding:0 0.3rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.name{
+  width: 100%;
+  height: 0.4rem;
+  border-bottom: 0.01rem solid #ff7c7c;
+  padding-bottom:0.13rem;
+  box-sizing: border-box;
+  margin-top:0.43rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.name h1{
+  width:100%;
+  height: 100%;
+  font-size: 0.26rem;
+  font-weight: bold;
+  color: #000;
+}
+.name span{
+  display: block;
+  width: 0.8rem;
+  height: 100%;
+  line-height: 0.3rem;
+  font-size: 0.2rem;
+  color: #7a8290;
+  text-align: right;
+}
+.underline{
+  width: 0.32rem;
+  height: 0.03rem;
+  background: #ff2020;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.slogan{
+  width: 100%;
+  line-height: 1;
+  font-size: 0.16rem;
+  color: #8d8d8d;
+  margin-top: 0.05rem;
+}
+.slogan span{
+  font-weight: bolder;
+}
+.star{
+  width: 2.6rem;
+  height: 0.28rem;
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.star>span{
+  font-size: 0.24rem;
+  line-height: 0.28rem;
+  color: #454545;
+}
+.star>ul{
+  width: 1.5rem;
+  height: 100%;
+  display: flex;
+}
+.star>ul>li{
+  width: 0.28rem;
+  height: 0.28rem;
+  margin-left: 0.02rem;
+  line-height: 0.28rem;
+  display: flex;
+  justify-content: right;
+}
+i.icon-xingxing{
+  font-size: 0.2rem;
+  color: #ffcf29;
+}
+.order{
+  width: 1.64rem;
+  height: 0.43rem;
+  box-sizing: border-box;
+  border: 0.04rem solid #fff;
+  box-shadow: 0 0.03rem 0.2rem 0.05rem rgba(253,49,145,0.2);
+  position: absolute;
+  bottom: 0.23rem;
+  right:0.3rem;
+  background: #ff318e;
+  border-radius: 0.175rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.order>b{
+  font-size: 0.2rem;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 0.35rem;
+  text-align: center;
+}
+.order>span{
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border: 0.02rem solid #fff;
+  margin:0 0.16rem;
+}
+.orderTop{
+  width: 1.9rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background: #ff4c9d;
+  position: absolute;
+  top:-0.25rem;
+  left: -0.13rem;
+}
+.orderBot{
+  width: 1.9rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background: #ec31bd;
+  position: absolute;
+  bottom:-0.25rem;
+  left: -0.13rem;
+}
+.shadow{
+  width: 0.27rem;
+  height: 1.48rem;
+  border-radius: 50%;
+  box-shadow: 0.05rem 0 0.1rem 0 rgba(0,0,0,0.1);
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: -0.27rem;
+  margin:auto 0;
+}
+/*内容结束*/
+/*把手开始*/
+.handle{
+  width: 100%;
+  height: 0.53rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.handleLine{
+  width: 0.7rem;
+  height: 100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.handleLine>span{
+  display: block;
+  width: 0.58rem;
+  height: 0.04rem;
+  border-radius: 0.02rem;
+  background: #808c9d;
+  margin: 0.04rem 0;
+}
+/*把手结束*/
