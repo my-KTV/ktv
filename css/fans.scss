@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+#view-18{
+  width: 7.5rem;
+  height: 13.34rem;
+  background:url("../img/fans.png");
+  .header{
+    width: 7.5rem;
+    height: 2.96rem;
+    background: url("../img/top.png");
+    .top{
+      position: absolute;
+      width: 7.02rem;
+      height: 0.42rem;
+      padding-left: 0.24rem;
+      padding-right: 0.24rem;
+      margin-top: 0.86rem;
+      display: flex;
+      justify-content: space-between;
+      i{
+        display: block;
+        font-size: 0.5rem;
+        color: #ffffff;
+      }
+      span{
+        font-size: 0.3rem;
+        color: #ffffff;
+        font-weight: bold;
+      }
+    }
+    .content{
+      position: absolute;
+      margin-top: 1.7rem;
+      width: 7.5rem;
+      height: 10.72rem;
+      background:url("../img/buguize.png");
+      background-size: cover;
+      .content-right{
+        position: absolute;
+        width: 0.36rem;
+        height: 8.3rem;
+        background: #f3f3f3;
+        margin-left: 7.14rem;
+        margin-top: 0.6rem;
+        ul{
+          margin: 0;
+          padding: 0;
+          li{
+            list-style: none;
+            font-size: 0.3rem;
+            text-align: center;
+          }
+          .shuzi{
+            background: #388bfc;
+          }
+          .G{
+            position: absolute;
+            top: 2.12rem;
+            left: -0.36rem;
+            width: 0.36rem;
+            height: 0.34rem;
+            background: #388bfc;
+            border-bottom-left-radius:10px;
+            border-top-left-radius:10px;
+          }
+        }
+      }
+      .content-introduce-yi{
+        width: 7.26rem;
+        height: 1.36rem;
+        padding-left: 0.24rem;
+        margin-top: 0.6rem;
+        .content-portrait{
+          position: absolute;
+          width: 0.98rem;
+          height: 0.98rem;
+          margin-top: 0.32rem;
+          border-radius: 50%;
+          border: dashed 0.02rem rgba(31,31,233,0.4);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .portrait{
+            width: 0.83rem;
+            height: 0.83rem;
+            border-radius: 50%;
+            background: #5dc5fd;
+              img{
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+              }
+          }
+        }
+        .rigth-top{
+          margin-left: 1.1rem;
+          width: 5rem;
+          height: 0.86rem;
+          align-items: flex-end;
+          display: flex;
+          flex-direction: row;
+          span{
+            font-size: 0.26rem;
+            font-weight: bold;
+            color: #4e4e4e;
+          }
+          #xingxing{
+            display: block;
+            font-size: 0.26rem;
+            color: #f6d746;
+            margin-left: 0.2rem;
+          }
+        }
+        .rigth-buttom{
+          width: 6rem;
+          height: 0.5rem;
+          margin-left: 1.1rem;
+          font-size: 0.24rem;
+          align-items: flex-start;
+          font-weight: bold;
+          color: #aaaaaa;
+        }
+      }
+      .content-introduce-er{
+        width: 7.26rem;
+        height: 1.36rem;
+        padding-left: 0.24rem;
+        .content-portrait{
+          position: absolute;
+          width: 0.98rem;
+          height: 0.98rem;
+          margin-top: 0.32rem;
+          border-radius: 50%;
+          border: dashed 0.02rem rgba(31,31,233,0.4);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .portrait{
+            width: 0.83rem;
+            height: 0.83rem;
+            border-radius: 50%;
+            background: #5dc5fd;
+            img{
+              display: block;
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+        }
+        .rigth-top{
+          margin-left: 1.1rem;
+          width: 5rem;
+          height: 0.86rem;
+          align-items: flex-end;
+          display: flex;
+          flex-direction: row;
+          span{
+            font-size: 0.26rem;
+            font-weight: bold;
+            color: #4e4e4e;
+          }
+          #xingxing{
+            display: block;
+            font-size: 0.26rem;
+            color: #f6d746;
+            margin-left: 0.2rem;
+          }
+        }
+        .rigth-buttom{
+          width: 6rem;
+          height: 0.5rem;
+          margin-left: 1.1rem;
+          font-size: 0.24rem;
+          align-items: flex-start;
+          font-weight: bold;
+          color: #aaaaaa;
+        }
+      }
+      .content-introduce-san{
+        .left-top{
+          width: 5rem;
+          height: 0.86rem;
+          align-items: flex-end;
+          display: flex;
+          flex-direction: row;
+          span{
+            font-size: 0.26rem;
+            font-weight: bold;
+            color: #4e4e4e;
+          }
+          #xingxing{
+            display: block;
+            font-size: 0.26rem;
+            color: #f6d746;
+            margin-left: 0.2rem;
+          }
+        }
+        .left-buttom{
+          width: 6rem;
+          height: 0.5rem;
+          font-size: 0.24rem;
+          align-items: flex-start;
+          font-weight: bold;
+          color: #aaaaaa;
+        }
+        .right-top{
+          position: absolute;
+          width: 1.4rem;
+          height: 0.74rem;
+          background: #38c7fc;
+          margin-left: 5.7rem;
+          border-top-left-radius:10px;
+          color: #ffffff;
+          font-size: 0.24rem;
+          font-weight: bold;
+          text-align: center;
+          line-height: 0.74rem;
+          margin-top: 0.12rem;
+        }
+        .right-buttom{
+          position: absolute;
+          width: 1.4rem;
+          height: 0.74rem;
+          background: #388bfc;
+          margin-left: 5.7rem;
+          border-bottom-left-radius:10px;
+          color: #ffffff;
+          font-size: 0.24rem;
+          font-weight: bold;
+          text-align: center;
+          line-height: 0.74rem;
+        }
+      }
+
+    }
+  }
+}
