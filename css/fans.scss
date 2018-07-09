@@ -39,9 +39,11 @@
       background:url("../img/buguize.png");
       background-size: cover;
       .content-right{
-        position: absolute;
+        position: fixed;
         width: 0.36rem;
-        height: 8.3rem;
+        height: 85%;
+        bottom:0;
+        right:0;
         background: #f3f3f3;
         margin-left: 7.14rem;
         margin-top: 0.6rem;
@@ -54,17 +56,17 @@
             text-align: center;
           }
           .shuzi{
-            background: #388bfc;
-          }
-          .G{
             position: absolute;
-            top: 2.12rem;
-            left: -0.36rem;
-            width: 0.36rem;
-            height: 0.34rem;
+            right: 0;
+            width: 0.68rem;
+            height: 0.3rem;
             background: #388bfc;
             border-bottom-left-radius:10px;
             border-top-left-radius:10px;
+            color: #a0c8fe;
+            span{
+              color: #ffffff;
+            }
           }
         }
       }
