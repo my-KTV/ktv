@@ -18,9 +18,11 @@ body {
     color: #ffffff;
     line-height: 0.81rem;
     margin-top: 0.34rem; }
-    #view-7 header i {
-      padding-left: 0.24rem;
-      font-size: 0.44rem; }
+    #view-7 header a {
+      color: #ffffff; }
+      #view-7 header a i {
+        padding-left: 0.24rem;
+        font-size: 0.44rem; }
     #view-7 header span {
       padding-left: 2.58rem;
       font-size: 0.36rem; }

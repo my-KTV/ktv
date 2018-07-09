@@ -1,0 +1,190 @@
+@import url(base.css);
+$width:7.5rem;
+$padding: .24rem;
+@mixin rowFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin columnCenter{
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#view-8 {
+  width: $width;
+  height: 13.34rem;
+  background: url("../img/view-8-bg.png") no-repeat center/cover;
+  /*头部*/
+  header {
+    width: 100%;
+    height: .88rem;
+    padding: 0 $padding;
+    box-sizing: border-box;
+    .header-wrapper {
+      height: 100%;
+      width: 100%;
+      padding: 0 2.6rem 0 0;
+      box-sizing: border-box;
+      a {
+        display: block;
+        width: .32rem;
+        height: .32rem;
+        line-height: .88rem;
+        i {
+          float: left;
+          width: .32rem;
+          height: .32rem;
+          color: #fff;
+          font-size: .32rem;
+          font-weight: bold;
+          line-height: .88rem;
+        }
+      }
+      h2 {
+        float: right;
+        height: 100%;
+        font-size: .34rem;
+        color: #fff;
+        //line-height: .88rem;
+      }
+    }
+  }
+  section{
+    width: 100%;
+    height: 2.9rem;
+    padding: 0 $padding;
+    box-sizing: border-box;
+    .info{
+      width: 100%;
+      height: 1.84rem;
+      @include rowFlex;
+      .imgBox{
+        width: 1.44rem;
+        height: 1.44rem;
+        position: relative;
+        li{
+          width: 100%;
+          height: 100%;
+          border-radius: .2rem;
+          &:first-child{
+            background: rgba(255,255,255,.4);
+            transform: rotate(15deg);
+          }
+          &:last-child{
+            position: absolute;
+            top: 0;
+            left: 0;
+            img{
+              width: 100%;
+              height: 100%;
+              border-radius: .2rem;
+            }
+          }
+        }
+      }
+      .list{
+        width: 4.78rem;
+        height: 1.78rem;
+        padding: .18rem 0;
+        box-sizing: border-box;
+        @include rowFlex;
+        flex-direction: column;
+        align-items: flex-start;
+        li{
+          &:first-child{
+            h2{
+              font-size: .22rem;
+              color: #fff;
+            }
+          }
+          &:nth-child(2){
+            .song{
+              width: 3.2rem;
+              @include rowFlex;
+              padding-bottom: .24rem;
+              border-bottom: .01rem dashed #fff;
+              .cir1{
+                width: .24rem;
+                height: .24rem;
+                background: #ffc405;
+                border-radius: 50%;
+                border: .01rem solid #fff;
+              }
+              .cir2{
+                width: .24rem;
+                height: .24rem;
+                background: #05b5ff;
+                border-radius: 50%;
+                border: .01rem solid #fff;
+              }
+            }
+            i{
+              color: #fff;
+              font-size: .12rem;
+              @include rowFlex;
+              justify-content: center;
+            }
+            p{
+              color: #ffffff;
+              font-size: .22rem;
+            }
+          }
+          &:last-child{
+            p{
+              font-size: .22rem;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  main{
+
+    .main-wrapper{
+      width: 100%;
+      padding: 0 $padding;
+      box-sizing: border-box;
+      li{
+        width: 100%;
+        height: .86rem;
+        padding-bottom: .3rem;
+        border-bottom: .01rem dashed #b7b7b7;
+        @include rowFlex;
+        .num{
+          font-size: .2rem;
+          color: #000;
+        }
+        .num-color{
+          color: #f73c5f;
+        }
+        a{
+          display: block;
+          width: 100%;
+          height: .86rem;
+          @include rowFlex;
+          flex-direction: column;
+          .song-bar{
+            margin-left: -3rem;
+            line-height: 1.5;
+            p{
+              &:first-child{
+                font-size: .24rem;
+                color: #89919e;
+              }
+              &:nth-child(2){
+                font-size: .16rem;
+                color: #c6c6c6;
+              }
+            }
+          }
+        }
+        .icon-add-2{
+          color: #f73c5f;
+        }
+      }
+    }
+  }
+}

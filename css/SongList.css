@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url(base.css);
+#view-8 {
+  width: 7.5rem;
+  height: 13.34rem;
+  background: url("../img/view-8-bg.png") no-repeat center/cover;
+  /*头部*/ }
+  #view-8 header {
+    width: 100%;
+    height: .88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box; }
+    #view-8 header .header-wrapper {
+      height: 100%;
+      width: 100%;
+      padding: 0 2.6rem 0 0;
+      box-sizing: border-box; }
+      #view-8 header .header-wrapper a {
+        display: block;
+        width: .32rem;
+        height: .32rem;
+        line-height: .88rem; }
+        #view-8 header .header-wrapper a i {
+          float: left;
+          width: .32rem;
+          height: .32rem;
+          color: #fff;
+          font-size: .32rem;
+          font-weight: bold;
+          line-height: .88rem; }
+      #view-8 header .header-wrapper h2 {
+        float: right;
+        height: 100%;
+        font-size: .34rem;
+        color: #fff; }
+  #view-8 section {
+    width: 100%;
+    height: 2.9rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box; }
+    #view-8 section .info {
+      width: 100%;
+      height: 1.84rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #view-8 section .info .imgBox {
+        width: 1.44rem;
+        height: 1.44rem;
+        position: relative; }
+        #view-8 section .info .imgBox li {
+          width: 100%;
+          height: 100%;
+          border-radius: .2rem; }
+          #view-8 section .info .imgBox li:first-child {
+            background: rgba(255, 255, 255, 0.4);
+            transform: rotate(15deg); }
+          #view-8 section .info .imgBox li:last-child {
+            position: absolute;
+            top: 0;
+            left: 0; }
+            #view-8 section .info .imgBox li:last-child img {
+              width: 100%;
+              height: 100%;
+              border-radius: .2rem; }
+      #view-8 section .info .list {
+        width: 4.78rem;
+        height: 1.78rem;
+        padding: .18rem 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start; }
+        #view-8 section .info .list li:first-child h2 {
+          font-size: .22rem;
+          color: #fff; }
+        #view-8 section .info .list li:nth-child(2) .song {
+          width: 3.2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: .24rem;
+          border-bottom: .01rem dashed #fff; }
+          #view-8 section .info .list li:nth-child(2) .song .cir1 {
+            width: .24rem;
+            height: .24rem;
+            background: #ffc405;
+            border-radius: 50%;
+            border: .01rem solid #fff; }
+          #view-8 section .info .list li:nth-child(2) .song .cir2 {
+            width: .24rem;
+            height: .24rem;
+            background: #05b5ff;
+            border-radius: 50%;
+            border: .01rem solid #fff; }
+        #view-8 section .info .list li:nth-child(2) i {
+          color: #fff;
+          font-size: .12rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          justify-content: center; }
+        #view-8 section .info .list li:nth-child(2) p {
+          color: #ffffff;
+          font-size: .22rem; }
+        #view-8 section .info .list li:last-child p {
+          font-size: .22rem;
+          color: #fff; }
+  #view-8 main .main-wrapper {
+    width: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box; }
+    #view-8 main .main-wrapper li {
+      width: 100%;
+      height: .86rem;
+      padding-bottom: .3rem;
+      border-bottom: .01rem dashed #b7b7b7;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #view-8 main .main-wrapper li .num {
+        font-size: .2rem;
+        color: #000; }
+      #view-8 main .main-wrapper li .num-color {
+        color: #f73c5f; }
+      #view-8 main .main-wrapper li a {
+        display: block;
+        width: 100%;
+        height: .86rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column; }
+        #view-8 main .main-wrapper li a .song-bar {
+          margin-left: -3rem;
+          line-height: 1.5; }
+          #view-8 main .main-wrapper li a .song-bar p:first-child {
+            font-size: .24rem;
+            color: #89919e; }
+          #view-8 main .main-wrapper li a .song-bar p:nth-child(2) {
+            font-size: .16rem;
+            color: #c6c6c6; }
+      #view-8 main .main-wrapper li .icon-add-2 {
+        color: #f73c5f; }

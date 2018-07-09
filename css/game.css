@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url(base.css);
+/*sass变量开始*/
+/*sass变量结束*/
+/*整体背景开始*/
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url("../img/game-background.png") no-repeat 0 0/cover; }
+
+#view-19 {
+  width: 100%;
+  height: 100%; }
+
+/*整体背景开始*/
+/*头部导航栏开始*/
+header {
+  width: 100%;
+  height: 0.88rem; }
+
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.back {
+  width: 0.6rem;
+  height: 0.38rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.24rem;
+  margin: auto 0;
+  z-index: 999; }
+
+.back > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+i.icon-fanhui {
+  color: #fff;
+  font-size: 0.38rem; }
+
+.title {
+  width: 7.02rem;
+  height: 100%;
+  text-align: center;
+  line-height: 0.88rem;
+  font-size: 0.36rem;
+  color: #fff;
+  font-weight: bolder;
+  position: absolute;
+  left: 0.24rem;
+  top: 0; }
+
+/*头部导航栏结束*/
+/*主体开始*/
+main {
+  width: 100%;
+  height: 11.53rem;
+  margin-top: 0.3rem; }
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.24rem;
+  box-sizing: border-box; }
+
+.gamelist {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 0 0.3rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.28rem 0.2rem 0.51rem rgba(248, 49, 158, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start; }
+
+.gamelist li {
+  width: 3.02rem;
+  height: 3.02rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 0.09rem 0.2rem 0.2rem rgba(248, 49, 158, 0.05);
+  position: relative; }
+
+.gamelist li > a {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.gamelist li > a > img {
+  display: block;
+  width: 2.03rem;
+  height: 1.68rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.97rem;
+  margin: 0 auto; }
+
+.gamelist li > a > h1 {
+  width: 100%;
+  line-height: 1;
+  font-size: 0.24rem;
+  color: #3a3e47;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0.54rem; }
+
+/*主体结束*/
